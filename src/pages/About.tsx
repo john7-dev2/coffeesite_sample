@@ -9,10 +9,10 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold font-playfair text-primary mb-4">
-            About BOOHA
+            About Us
           </h1>
           <p className="text-xl text-muted-foreground">
-            Where passion for coffee meets Goa's laid-back charm
+            Coffee bar in Candolim, Goa
           </p>
         </div>
 
@@ -21,7 +21,7 @@ const About = () => {
           <div>
             <img
               src={cafeInterior}
-              alt="BOOHA Café Interior"
+              alt="Sample Cafe Interior"
               className="rounded-2xl shadow-warm w-full"
             />
           </div>
@@ -30,15 +30,12 @@ const About = () => {
               Our Story
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Born from a love for specialty coffee and the vibrant culture of
-              Goa, BOOHA is more than just a café—it's a celebration of
-              craftsmanship and community.
+              Started because we wanted a place in Candolim that served
+              good coffee. Simple as that.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We source the finest single-origin beans and premium matcha to
-              create drinks that awaken your senses. Every pastry is baked fresh,
-              every dish prepared with care, ensuring that each visit to BOOHA is
-              a memorable experience.
+              We use single-origin beans, make our pastries fresh each morning,
+              and keep things straightforward. No fuss, just quality.
             </p>
           </div>
         </div>
@@ -55,8 +52,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-bold font-playfair mb-3">Quality First</h3>
               <p className="text-muted-foreground">
-                We never compromise on quality. From bean to cup, excellence is
-                our standard.
+                We don't cut corners. Good beans, proper brewing, fresh ingredients.
               </p>
             </div>
 
@@ -64,10 +60,10 @@ const About = () => {
               <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-bold font-playfair mb-3">Made with Love</h3>
+              <h3 className="text-xl font-bold font-playfair mb-3">Fresh Daily</h3>
               <p className="text-muted-foreground">
-                Every item on our menu is crafted with passion and attention to
-                detail.
+                Everything's made fresh. Pastries baked in the morning, food
+                prepared to order.
               </p>
             </div>
 
@@ -75,10 +71,10 @@ const About = () => {
               <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-bold font-playfair mb-3">Community</h3>
+              <h3 className="text-xl font-bold font-playfair mb-3">Local Spot</h3>
               <p className="text-muted-foreground">
-                We're building a space where coffee lovers and food enthusiasts
-                come together.
+                A neighborhood place where people come to work, meet friends,
+                or just grab a coffee.
               </p>
             </div>
           </div>
@@ -89,19 +85,17 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 space-y-6">
               <h2 className="text-3xl font-bold font-playfair text-primary">
-                The Candolim Experience
+                The Space
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Nestled in the heart of Candolim, BOOHA captures the essence of
-                Goa's unique blend of relaxation and sophistication. Our space is
-                designed to be your haven—whether you're starting your day with a
-                perfect espresso, enjoying a leisurely brunch, or winding down
-                with friends over dessert.
+                We're located in Candolim, close to the beach. The space is
+                comfortable—good for working, meeting people, or just sitting
+                with a coffee.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Natural light streams through our windows, complementing the warm
-                wood tones and minimalist décor. It's a place where time slows
-                down, conversations flow, and every moment is savored.
+                Lots of natural light, wood furniture, and a relaxed vibe.
+                Come early for breakfast, stay for lunch, or drop by in the
+                afternoon.
               </p>
             </div>
             <div className="order-1 md:order-2">

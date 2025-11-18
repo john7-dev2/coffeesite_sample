@@ -11,7 +11,7 @@ const Contact = () => {
             Visit Us
           </h1>
           <p className="text-xl text-muted-foreground">
-            We'd love to serve you at BOOHA
+            Come visit us in Candolim
           </p>
         </div>
 
@@ -26,7 +26,8 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-bold font-playfair mb-2">Location</h3>
                   <p className="text-muted-foreground">
-                    Candolim, Goa, India
+                    123 Beach Road, Candolim<br />
+                    Goa 403515, India
                   </p>
                 </div>
               </div>
@@ -38,7 +39,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-bold font-playfair mb-2">Hours</h3>
                   <p className="text-muted-foreground">Open Daily</p>
-                  <p className="text-primary font-semibold">10 AM - 7 PM</p>
+                  <p className="text-primary font-semibold">8 AM - 8 PM</p>
                 </div>
               </div>
 
@@ -46,15 +47,15 @@ const Contact = () => {
                 <h3 className="text-xl font-bold font-playfair mb-4">Get in Touch</h3>
                 
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+911234567890"
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-smooth"
                 >
                   <Phone className="h-5 w-5" />
-                  <span>Call Us</span>
+                  <span>+91 12345 67890</span>
                 </a>
 
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/911234567890"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-smooth"
@@ -64,13 +65,13 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://instagram.com/booha.in"
+                  href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-smooth"
                 >
                   <Instagram className="h-5 w-5" />
-                  <span>@booha.in</span>
+                  <span>@samplecafe</span>
                 </a>
               </div>
             </div>
@@ -81,7 +82,7 @@ const Contact = () => {
               </h3>
               <div className="space-y-3">
                 <Button className="w-full justify-start" size="lg" asChild>
-                  <a href="tel:+919876543210">
+                  <a href="tel:+911234567890">
                     <Phone className="h-5 w-5 mr-2" />
                     Call Now
                   </a>
@@ -93,7 +94,7 @@ const Contact = () => {
                   asChild
                 >
                   <a
-                    href="https://wa.me/919876543210"
+                    href="https://wa.me/911234567890"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -108,7 +109,7 @@ const Contact = () => {
                   asChild
                 >
                   <a
-                    href="https://instagram.com/booha.in"
+                    href="https://instagram.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -130,7 +131,7 @@ const Contact = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="BOOHA Location Map"
+              title="Sample Cafe Location Map"
             ></iframe>
           </div>
         </div>
@@ -138,11 +139,10 @@ const Contact = () => {
         {/* Additional Info */}
         <div className="bg-primary text-primary-foreground rounded-3xl p-12 text-center">
           <h2 className="text-3xl font-bold font-playfair mb-4">
-            Can't Wait to See You!
+            See You Soon
           </h2>
           <p className="text-lg opacity-90 max-w-2xl mx-auto">
-            Whether you're a coffee connoisseur or just looking for a cozy spot to
-            relax, BOOHA welcomes you with open arms and the finest brews in town.
+            Drop by for coffee, food, or just to hang out. We're open daily from 8 AM to 8 PM.
           </p>
         </div>
       </div>

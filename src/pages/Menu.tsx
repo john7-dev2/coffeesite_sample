@@ -14,22 +14,22 @@ const Menu = () => {
   const drinks: MenuItem[] = [
     {
       name: "Espresso",
-      description: "Single or double shot of rich, aromatic specialty espresso",
+      description: "Single or double shot of espresso",
       image: espresso,
     },
     {
       name: "Cappuccino",
-      description: "Perfect balance of espresso, steamed milk and velvety foam",
+      description: "Espresso with steamed milk and foam",
       image: espresso,
     },
     {
       name: "Flat White",
-      description: "Smooth microfoam paired with double espresso shot",
+      description: "Double espresso with microfoam milk",
       image: espresso,
     },
     {
       name: "Matcha Latte",
-      description: "Premium Japanese matcha whisked with steamed milk",
+      description: "Japanese matcha with steamed milk",
       image: matchaLatte,
     },
   ];
@@ -37,22 +37,22 @@ const Menu = () => {
   const desserts: MenuItem[] = [
     {
       name: "Croissants",
-      description: "Buttery, flaky French pastry baked fresh daily",
+      description: "Butter croissants, baked fresh",
       image: pastries,
     },
     {
       name: "Chocolate Cake",
-      description: "Rich, moist chocolate cake with ganache frosting",
+      description: "Chocolate cake with ganache",
       image: pastries,
     },
     {
       name: "Fruit Tart",
-      description: "Crispy pastry shell with vanilla cream and fresh fruits",
+      description: "Pastry with vanilla cream and fruit",
       image: pastries,
     },
     {
       name: "Cinnamon Roll",
-      description: "Soft, gooey rolls with cream cheese frosting",
+      description: "Cinnamon rolls with cream cheese frosting",
       image: pastries,
     },
   ];
@@ -60,22 +60,22 @@ const Menu = () => {
   const food: MenuItem[] = [
     {
       name: "Belgian Waffles",
-      description: "Crispy waffles with fresh berries and maple syrup",
+      description: "Waffles with berries and syrup",
       image: waffle,
     },
     {
       name: "Avocado Toast",
-      description: "Smashed avocado on sourdough with poached eggs",
+      description: "Avocado on sourdough, poached eggs",
       image: waffle,
     },
     {
       name: "Club Sandwich",
-      description: "Triple-decker with chicken, bacon, lettuce and tomato",
+      description: "Chicken, bacon, lettuce, tomato",
       image: waffle,
     },
     {
       name: "Grilled Panini",
-      description: "Choice of chicken or vegetarian with melted cheese",
+      description: "Chicken or veg with cheese",
       image: waffle,
     },
   ];
@@ -83,12 +83,12 @@ const Menu = () => {
   const specials: MenuItem[] = [
     {
       name: "Iced Matcha Latte",
-      description: "Refreshing cold matcha with oat milk and honey",
+      description: "Cold matcha with oat milk",
       image: matchaLatte,
     },
     {
       name: "Affogato",
-      description: "Vanilla gelato drowned in hot espresso",
+      description: "Vanilla gelato with espresso",
       image: espresso,
     },
   ];
@@ -143,7 +143,7 @@ const Menu = () => {
             Our Menu
           </h1>
           <p className="text-xl text-muted-foreground">
-            Crafted with love, served with care
+            What we're serving
           </p>
         </div>
 

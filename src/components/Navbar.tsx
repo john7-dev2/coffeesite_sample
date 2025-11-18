@@ -24,7 +24,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <h1 className="text-3xl font-bold font-playfair text-primary tracking-tight">
-              BOOHA
+              Sample Cafe
             </h1>
           </Link>
 
