@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="coffeeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5C2E0F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Coffee cup -->
+  <path d="M 25 35 L 30 75 Q 30 85 40 85 L 60 85 Q 70 85 70 75 L 75 35 Z" 
+        fill="url(#coffeeGradient)" stroke="#3E1F0A" stroke-width="2"/>
+  
+  <!-- Cup rim -->
+  <ellipse cx="50" cy="35" rx="25" ry="5" fill="#8B4513" stroke="#3E1F0A" stroke-width="2"/>
+  
+  <!-- Handle -->
+  <path d="M 75 45 Q 90 45 90 60 Q 90 70 80 70 L 75 70" 
+        fill="none" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Steam -->
+  <path d="M 40 20 Q 38 15 40 10" fill="none" stroke="#D2691E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 50 25 Q 48 18 50 12" fill="none" stroke="#D2691E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 60 20 Q 62 15 60 10" fill="none" stroke="#D2691E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>
